@@ -1,0 +1,45 @@
+public class Main{
+
+     public static void main(String []args){
+
+    int count1=5;
+    int count2=7;
+    int count3=3;
+    int newmem=20;
+    int temp1=0;int temp2=0;int temp3=0;
+    while(count1<10)
+    {
+        
+        count1=count1+1;
+        newmem=newmem-1;
+       temp1=temp1+1;
+        
+    }
+    System.out.println(temp1);
+   while(count2<10)
+    {
+       
+        count2=count2+1;
+        newmem=newmem-1;
+         temp2=temp2+1;
+        
+    }
+    System.out.println(temp2);
+  //System.out.println("new "+newmem);
+       
+        while((count3<10)&&(newmem!=0))
+        {
+              count3=count3+1;
+            newmem=newmem-1;
+            temp3=temp3+1;
+            
+        }
+    System.out.println(temp3);
+    System.out.println(newmem);
+    if(newmem!=0)
+    {
+        System.out.println("Wait in Lobby");
+    }
+
+     }
+}
